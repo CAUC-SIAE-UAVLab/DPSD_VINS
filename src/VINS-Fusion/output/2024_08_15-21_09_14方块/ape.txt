@@ -1,0 +1,83 @@
+evo_ape tum psd.txt vio_global.txt -va -p
+--------------------------------------------------------------------------------
+Loaded 3543 stamps and poses from: psd.txt
+Loaded 3912 stamps and poses from: vio_global.txt
+--------------------------------------------------------------------------------
+Synchronizing trajectories...
+Found 3543 of max. 3543 possible matching timestamps between...
+	psd.txt
+and:	vio_global.txt
+..with max. time diff.: 0.01 (s) and time offset: 0.0 (s).
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method...
+Rotation of alignment:
+[[ 9.99999045e-01  1.07579243e-04 -1.37805068e-03]
+ [-1.04569185e-04  9.99997609e-01  2.18417268e-03]
+ [ 1.37828235e-03 -2.18402649e-03  9.99996665e-01]]
+Translation of alignment:
+[ 3.39422382e-05 -2.03453210e-04  2.23401439e-04]
+Scale correction: 1.0
+--------------------------------------------------------------------------------
+Compared 3543 absolute pose pairs.
+Calculating APE for translation part pose relation...
+--------------------------------------------------------------------------------
+APE w.r.t. translation part (m)
+(with SE(3) Umeyama alignment)
+
+       max	0.027571
+      mean	0.009158
+    median	0.008685
+       min	0.000567
+      rmse	0.009999
+       sse	0.354216
+       std	0.004014
+
+--------------------------------------------------------------------------------
+Plotting results... 
+QFileSystemWatcher::removePaths: list is empty
+QFileSystemWatcher::removePaths: list is empty
+
+
+**********************************************************************************************************************
+evo_ape tum psd.txt vio.txt -va -p
+--------------------------------------------------------------------------------
+Loaded 3543 stamps and poses from: psd.txt
+Loaded 3925 stamps and poses from: vio.txt
+--------------------------------------------------------------------------------
+Synchronizing trajectories...
+Found 3543 of max. 3543 possible matching timestamps between...
+	psd.txt
+and:	vio.txt
+..with max. time diff.: 0.01 (s) and time offset: 0.0 (s).
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method...
+Rotation of alignment:
+[[ 0.99666646  0.00603083 -0.08136096]
+ [-0.00784513  0.99972723 -0.02199814]
+ [ 0.0812061   0.0225631   0.99644191]]
+Translation of alignment:
+[ 0.03557258 -0.05145078 -0.01125077]
+Scale correction: 1.0
+--------------------------------------------------------------------------------
+Compared 3543 absolute pose pairs.
+Calculating APE for translation part pose relation...
+--------------------------------------------------------------------------------
+APE w.r.t. translation part (m)
+(with SE(3) Umeyama alignment)
+
+       max	0.087461
+      mean	0.053021
+    median	0.053893
+       min	0.016924
+      rmse	0.054763
+       sse	10.625505
+       std	0.013703
+
+--------------------------------------------------------------------------------
+Plotting results... 
+QFileSystemWatcher::removePaths: list is empty
+QFileSystemWatcher::removePaths: list is empty
+
+
+
+

@@ -1,0 +1,8 @@
+prefix=/home/robot/catkin_DPSDVinsFusion/install
+
+Name: vins_dpsd
+Description: Description of vins_dpsd
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

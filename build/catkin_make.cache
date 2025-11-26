@@ -1,0 +1,2 @@
+VINS-Fusion/camera_models:VINS-Fusion/global_fusion:VINS-Fusion/loop_fusion:VINS-Fusion/vins_estimator
+-DCATKIN_DEVEL_PREFIX=/home/robot/catkin_DPSDVinsFusion/devel -DCMAKE_INSTALL_PREFIX=/home/robot/catkin_DPSDVinsFusion/install -G Unix Makefiles

@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/home/siae302/imu_catkin_ws/devel/include/**",
+                "/home/siae302/catkin_PsdVinsFusion/devel/include/**",
+                "/opt/ros/noetic/include/**",
+                "/home/siae302/catkin_PsdVinsFusion/src/VINS-Fusion/camera_models/include/**",
+                "/home/siae302/catkin_PsdVinsFusion/src/cv_bridge_vinsmono/include/**",
+                "/home/siae302/imu_catkin_ws/src/read_serial_copyV1/include/**",
+                "/home/siae302/catkin_PsdVinsFusion/src/realsense-ros/realsense2_camera/include/**",
+                "/home/siae302/catkin_PsdVinsFusion/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+                "/home/siae302/catkin_PsdVinsFusion/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+                "/home/siae302/catkin_PsdVinsFusion/src/turtlebot3-master/turtlebot3_slam/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}

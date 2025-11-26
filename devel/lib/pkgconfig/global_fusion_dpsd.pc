@@ -1,0 +1,8 @@
+prefix=/home/robot/catkin_DPSDVinsFusion/devel
+
+Name: global_fusion_dpsd
+Description: Description of global_fusion_dpsd
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

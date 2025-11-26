@@ -1,0 +1,39 @@
+--------------------------------------------------------------------------------
+Loaded 2830 stamps and poses from: psd.txt
+Loaded 3129 stamps and poses from: vio_global.txt
+--------------------------------------------------------------------------------
+Synchronizing trajectories...
+Found 2830 of max. 2830 possible matching timestamps between...
+	psd.txt
+and:	vio_global.txt
+..with max. time diff.: 0.01 (s) and time offset: 0.0 (s).
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method... (with scale correction)
+Rotation of alignment:
+[[ 9.99998176e-01  1.12366858e-03 -1.54467643e-03]
+ [-1.12516839e-03  9.99998896e-01 -9.70423776e-04]
+ [ 1.54358429e-03  9.72160027e-04  9.99998336e-01]]
+Translation of alignment:
+[-2.01696426e-05  2.72434559e-05 -1.00823683e-03]
+Scale correction: 1.0005866551901723
+--------------------------------------------------------------------------------
+Compared 2830 absolute pose pairs.
+Calculating APE for translation part pose relation...
+--------------------------------------------------------------------------------
+APE w.r.t. translation part (m)
+(with Sim(3) Umeyama alignment)
+
+       max	0.030975
+      mean	0.010329
+    median	0.009743
+       min	0.000576
+      rmse	0.011352
+       sse	0.364683
+       std	0.004710
+
+--------------------------------------------------------------------------------
+Plotting results... 
+Plots saved to VioRefpsd.pdf
+QFileSystemWatcher::removePaths: list is empty
+QFileSystemWatcher::removePaths: list is empty
+
